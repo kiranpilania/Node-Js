@@ -1,0 +1,66 @@
+Title = Job Hunting
+
+Attributes :-
+    1. jobtype
+    2. salaryrangefrom
+    3. companyname
+    4. name -> persondata.json
+    5. joblocation
+    6. designation
+    8. email_address
+    9. skills
+
+
+Functions :- 
+    1. Job search()
+    2. companies_description()
+    3. Employment()
+    4. about companies(list)
+    5. Job_Location()
+    6. apply_job
+
+Function Arguments :-
+    1. Job_search()
+        a. jobtype
+        b. salaryrangefrom
+
+    2. Description()
+        a. companyname
+
+    3. getEmployment()
+        a. name
+    
+    4. companiesdata()
+        a. No Arguments
+
+    5. joblocation()
+        a. joblocation
+        b. designation
+
+    6. apply_job()
+        a. name
+        b. email_address
+        c. skills
+
+
+Commands:-
+    start - 
+    searchjob   -    jobtype, salaryrangefrom
+    comapanyinfo -   companyname
+    getjobs     -    name
+    list
+    searchlocation - joblocation, designation
+    apply_job      - name, email_address, skills
+
+
+
+In this you can search data of companies according to the 
+    -> jobtype and salaryrange,  
+    -> get desciption = particular company
+    -> show all companies
+    -> joblocation = location and designation
+    -> apply for jobs
+
+
+
+node job_func_call.js getjobs --name=anjali   (shows all the jobs available accoding to the skills)
